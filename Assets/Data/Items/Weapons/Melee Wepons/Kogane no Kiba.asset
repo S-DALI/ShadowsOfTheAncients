@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc3b7648ddb4b0d419e88991cd38343f, type: 3}
+  m_Name: Kogane no Kiba
+  m_EditorClassIdentifier: 
+  itemName: Kogane no Kiba
+  itemIcon: {fileID: 21300000, guid: c742badd62f9db04f94ab865628cf05f, type: 3}
+  itemDescription: A short Japanese dagger, ideal for stealth and swift attacks.
+    Its small size allows it to attack the enemy with lightning speed, and the sharpness
+    of the blade makes it a deadly weapon in the right hands.
+  itemID: 1
+  weaponModel: {fileID: 7002859756000613635, guid: 3b9ce49ec7ea52f4eb633360f62840b7,
+    type: 3}
+  strengthREQ: 10
+  dexREQ: 10
+  intREQ: 0
+  faithREQ: 0
+  physicalDamage: 50
+  magicDamage: 0
+  fireDamage: 0
+  holyDamage: 0
+  lightningDamage: 0
+  poiseDamage: 10
+  light_Attack_01_Modifier: 1
+  baseStaminaCost: 10
+  lightAttackStaninaCostMultiplier: 1
+  oneHandLbAction: {fileID: 11400000, guid: 4f2733b795bae6849a06fff481363785, type: 2}

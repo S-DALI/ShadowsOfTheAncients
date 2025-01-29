@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc3b7648ddb4b0d419e88991cd38343f, type: 3}
+  m_Name: Kanetsugu
+  m_EditorClassIdentifier: 
+  itemName: Kanetsugu
+  itemIcon: {fileID: 21300000, guid: 68f79cdaaa350864aa2daf528bfa163d, type: 3}
+  itemDescription: A simple but reliable katana, created for training and first battles.
+    She has no magical powers, but her sharp blade and balance make her ideal for
+    learning the basics of combat.
+  itemID: 1
+  weaponModel: {fileID: 765720997309891099, guid: 9948d1eeec847604787357b9e6fcbdd2,
+    type: 3}
+  strengthREQ: 10
+  dexREQ: 10
+  intREQ: 0
+  faithREQ: 0
+  physicalDamage: 110
+  magicDamage: 0
+  fireDamage: 0
+  holyDamage: 0
+  lightningDamage: 0
+  poiseDamage: 25
+  baseStaminaCost: 20
+  oneHandLbAction: {fileID: 11400000, guid: 4f2733b795bae6849a06fff481363785, type: 2}
